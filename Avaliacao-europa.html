@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de serviços</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <style>
+    
+
+    
+.container{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+        body {
+            height: 100vh;
+            background-color: rgb(168, 198, 223);
+        }
+
+        .sidebar {
+            height: 100%;
+
+        }
+
+        .bem-vindo {
+            display: flex;
+
+        }
+
+        .imagem-principal {
+
+            width: 300px;
+            border: 3px black;
+            height: center;
+            width: center;
+
+        }
+
+        .logoprincipal {
+
+            width: 100px;
+            border: 2px black;
+            height: auto;
+        }
+
+.imagem-central{
+
+    width: 100%;
+    gap: 20px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+    <div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bem-vindo">
+
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary sidebar" style="width: 280px;"> <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg
+                    class="bi pe-none me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> <span class="fs-4"><img class="logoprincipal" src="logoSenac.JPG"></span> </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item"> <a href="Avaliacao-home.html" class="nav-link link-body-emphasis " aria-current="page"> <svg
+                            class="bi pe-none me-2" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="#home"></use>
+                        </svg>
+                        Home
+
+                    </a> </li>
+
+                <li> <a href="Avaliacao-brasil.html" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16" height="16"
+                            aria-hidden="true">
+                            <use xlink:href="#speedometer2"></use>
+                        </svg>
+                        Viagens Brasil
+
+                    </a> </li>
+                <li> <a href="Avaliacao-america.html" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16"
+                            height="16" aria-hidden="true">
+                            <use xlink:href="#table"></use>
+                        </svg>
+                        Viagens América
+                    </a> </li>
+                <li> <a href="Avaliacao-europa.htm"l class="nav-link active"> <svg class="bi pe-none me-2" width="16"
+                            height="16" aria-hidden="true">
+                            <use xlink:href="#grid"></use>
+                        </svg>
+                        Viagens Europa
+                    </a> </li>
+                    <li> <a href="pacotes.html" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2"
+                        width="16" height="16" aria-hidden="true">
+                        <use xlink:href="#grid"></use>
+                    </svg>
+                    Pacotes
+                </a> </li>
+                    
+            </ul>
+            <hr>
+            <div class="dropdown"> <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false"> <img src="logoSenac.JPG" alt=""
+                        width="32" height="32" class="rounded-circle me-2"> <strong>Opções</strong> </a>
+                <ul class="dropdown-menu text-small shadow">
+                    <li><a class="dropdown-item" href="pacotes.html">Pacotes...</a></li>
+                    <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                    <li><a class="dropdown-item" href="mensagem.html">Mensagem</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+               
+                </ul>
+            </div>
+        </div>
+<div class="imagem-central">
+        <div>
+
+        <h1 style="font-family: 'Times New Roman', serif; color: darkblue;"><strong> ENCONTRE AQUI AS MELHORES VIAGENS DA EUROPA!!! </strong> </h1> <BR>
+         <H2  style="font-family: 'Times New Roman', serif; color: black;" > Aqui você encontra os melhores pacotes para os destinos da Europa. </H2>   
+
+        </div>
+
+<div class="container">
+    <h3  style="font-family: 'Times New Roman', serif; color: black;" > França </H3> 
+        <img src="FRANCA.JPG" alt="" onclick="window.location.href='pacotes.html'" width="200" height="200" class="rounded-circle me-1">
+
+</div>
+
+<div class="container">
+    <h3  style="font-family: 'Times New Roman', serif; color: black;" > Roma </H3> 
+
+    <img src="ITALIA.JPG" alt="" onclick="window.location.href='pacotes.html'" width="200" height="200" class="rounded-circle me-1">
+
+</div>
+
+<div class="container">
+    <h3  style="font-family: 'Times New Roman', serif; color: black;" > Espanha </H3> 
+
+    <img src="ESPANHA.JPG" alt="" onclick="window.location.href='pacotes.html'" width="200" height="200" class="rounded-circle me-1">
+
+</div>
+
+
+
+
+</div>
+
+    </div>
+
+    
+
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
